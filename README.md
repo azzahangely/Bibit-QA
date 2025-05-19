@@ -40,19 +40,19 @@ mvn clean install
 
 ## 🚀 How to Run the Tests
 
-### ✅ 1. Web Tests
+### 🌐 1. Web Tests
 
 ```bash
 mvn test -Dcucumber.filter.tags="@web"
 ```
-or right-click the test runner class in IntelliJ and select **Run**.
+or via IntelliJ, run `WebRunner.java`.
 
 ### 🔗 2. API Tests
 
 ```bash
 mvn test -Dcucumber.filter.tags="@api"
 ```
-or run via IntelliJ.
+or via IntelliJ, run `ApiRunner.java`.
 
 ### 📱 3. Android Mobile Tests
 
@@ -65,7 +65,7 @@ or run via IntelliJ.
     ```bash
     mvn test -Dcucumber.filter.tags="@android"
     ```
-or via IntelliJ (e.g., run `AndroidRunner.java`).
+or via IntelliJ, run `AndroidRunner.java`.
 
 ---
 
